@@ -1,0 +1,31 @@
+
+.ulcontroling{
+    font-size: 30px;
+    /* background-image: url("https://papers.co/wallpaper/papers.co-nm93-matrix-minimal-coding-screen-computer-bw-dark-35-3840x2160-4k-wallpaper.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    height: 50%; */
+}
+
+.ulcontroling li{
+    text-align: center;
+    list-style: none;
+    background-color: white;
+    /* background: transparent; */
+    color: black;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.ulcontroling li a{
+  background-color: white;
+  text-decoration: none;
+}
+.ulcontroling li a:hover{
+    color: orange;
+  }
+/* .headingcontrol a{
+ text-decoration: none;
+ background-color: white;
+} */

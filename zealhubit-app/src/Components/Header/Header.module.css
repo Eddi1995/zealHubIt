@@ -1,0 +1,15 @@
+
+
+.headerAlign{
+    text-align: center;
+    margin: 20px;
+    font-size: 40px;
+}
+.headerAlign a{
+   text-decoration: none;
+}
+.hrColor {
+    color: orange;
+    margin-left: 80px;
+    margin-right: 80px;
+}
