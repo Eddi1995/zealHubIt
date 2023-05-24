@@ -21,6 +21,7 @@
 .ulcontroling li a{
   background-color: white;
   text-decoration: none;
+  color: black;
 }
 .ulcontroling li a:hover{
     color: orange;

@@ -1,0 +1,26 @@
+
+
+.mainParent{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mainParent >div:first-child{
+    flex: 1;
+    border: 1px solid red;
+    text-align: center;
+    padding: 80px;
+}
+.mainParent >div:first-child h2{
+   font-size: 50px;
+   margin: 25px;
+   border: 1px solid rec;
+}
+.mainParent >div:first-child h5{
+    font-size: 25px;
+ }
+.mainParent >div:nth-child(2){
+    flex: 1;
+    border: 1px solid red;
+    text-align: center;
+}
