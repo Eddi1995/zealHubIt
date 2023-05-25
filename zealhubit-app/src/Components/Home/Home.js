@@ -6,14 +6,16 @@ function Home(){
         <>
        <main class={mainstyle.mainParent}>   {/* parent */}
             <div>      {/* child1 */}
-            <h2>Development that easy!</h2>
-            <h5>Apply disruptive technologies to transform digital business growth with zealhub IT.</h5>
-
+            <img src="./Assetz/mainfour.webp" />
+                <div class={mainstyle.mainParentChild}>
+                <h2 className="text-warning">Development that easy!</h2>
+                <h5>Apply disruptive technologies to transform digital business growth with zealhub IT.</h5>
+                </div>
             </div>
-            <div>      {/* child2 */}
-            hellow2
+            {/* <div>     
+             
 
-            </div>
+            </div> */}
         </main>
         </>
     )

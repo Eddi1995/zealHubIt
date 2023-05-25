@@ -19,8 +19,8 @@ function App() {
    <Header/>
    <Nav/>
    <Router/>
-   <Home/>
-  {/*<Services/>
+  {/* <Home/>
+  <Services/>
    <Customers/>
    <Career/>
    <Faq/>
@@ -28,7 +28,8 @@ function App() {
    <Login/> */}
    <Footer/>
 
-
+  
+    
    </div>
   );
 }
