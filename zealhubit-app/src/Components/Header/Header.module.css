@@ -1,9 +1,22 @@
 
+.headControl{
+    display: flex;
+    flex-wrap: wrap;
+}
+.headControl >div:first-child{
+    flex:70%;
+}
+.headControl >div:nth-child(2){
+    flex: 30%;
+    text-align: end;
+    padding: 20px;
+}
 
 .headerAlign{
-    text-align: center;
-    margin: 20px;
-    font-size: 40px;
+    text-align: start;
+    margin: 15px;
+    font-size: 50px;
+    padding-left: 40px;
 }
 .headerAlign a{
    text-decoration: none;

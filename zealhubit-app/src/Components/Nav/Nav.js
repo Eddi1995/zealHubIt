@@ -16,15 +16,9 @@ function Nav(){
             <li><Link to="Faq">Faq</Link></li>
             <li><Link to="Contact Us">Contact Us</Link></li>
             <li><Link to="Login">Login</Link></li>
-
         </ul>
-    {/* <h3 className="text-white bg-white"></h3>
-    <h4 className="text-white bg-white"><Link>Services</a></h4>
-    <h4 className="text-white bg-white"><Link>Customers</a></h4>
-    <h4 className="text-white bg-white"><Link>Career</a></h4>
-    <h4 className="text-white bg-white"><Link>Faq</a></h4>
-    <h4 className="text-white bg-white"><Link>Contact Us</a></h4>
-    <h4 className="text-white bg-white"><Link>Login</a></h4> */}
+        
+  
     </div>
     </div>
      <nav className="navbar navbar-dark bg-black">

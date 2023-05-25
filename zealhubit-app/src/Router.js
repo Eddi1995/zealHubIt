@@ -10,7 +10,7 @@ function Router(){
     return(
         <>
          <Routes>
-            <Route path="Home" element={<Home/>} />
+            {/* <Route path="Home" element={<Home/>} /> */}
             <Route path="Services" element={<Services/>} />
             <Route path="Customers" element={<Customers/>} />
             <Route path="Faq" element={<Faq/>} />

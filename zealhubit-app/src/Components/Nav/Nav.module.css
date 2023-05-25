@@ -6,9 +6,11 @@
     background-repeat:no-repeat;
     background-position: center;
     height: 50%; */
+    
 }
 
 .ulcontroling li{
+  border-radius: 30px;
     text-align: center;
     list-style: none;
     background-color: white;
