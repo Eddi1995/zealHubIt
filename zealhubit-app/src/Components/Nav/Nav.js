@@ -4,12 +4,13 @@ import { Link } from "react-router-dom";
 function Nav(){
     return(
         <>
-        
+        <div class={Navstyle.navParent} >
+    
         <div className="collapse" id="navbarToggleExternalContent">
     <div className="bg-black p-4" >
 
         <ul class={Navstyle.ulcontroling}>
-            <li><Link to="Home" >Home</Link></li>
+            {/* <li><Link to="Home" >Home</Link></li> */}
             <li><Link to="Services">Services</Link></li>
             <li><Link to="Customers">Customers</Link></li>
             <li><Link to="Career">Career</Link></li>
@@ -28,6 +29,8 @@ function Nav(){
       </button>
       </div>
        </nav>
+
+       </div>
 
         </>
     )

@@ -18,8 +18,8 @@ function App() {
 
    <Header/>
    <Nav/>
+   <Home/>
    <Router/>
-  <Home/>
    {/*<Services/>
    <Customers/>
    <Career/>

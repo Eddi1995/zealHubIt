@@ -6,18 +6,12 @@ function Home(){
         <>
        <main class={mainstyle.mainParent}>   {/* parent */}
             <div>      {/* child1 */}
-            <img src="./Assetz/mainfour.webp" />
+            <img src="./Assetz/mainfour.webp" alt="bannerimage"/>
                 <div class={mainstyle.mainParentChild}>
                 <h2 className="text-warning">Development that easy!</h2>
                 <h5>Apply disruptive technologies to transform digital business growth with zealhub IT.</h5>
                 </div>
             </div>
-            {/* <div>     
-             
-
-            </div> */}
-
-   
  
         </main>
         </>
