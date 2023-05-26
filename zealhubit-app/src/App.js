@@ -20,8 +20,8 @@ function App() {
    <Nav/>
    <Home/>
    <Router/>
-   {/*<Services/>
-   <Customers/>
+  <Services/>
+    {/*<Customers/>
    <Career/>
    <Faq/>
    <ContactUs/>
