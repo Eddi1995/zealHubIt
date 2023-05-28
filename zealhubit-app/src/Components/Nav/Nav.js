@@ -12,7 +12,7 @@ function Nav(){
         <ul class={Navstyle.ulcontroling}>
             {/* <li><Link to="Home" >Home</Link></li> */}
             <li><Link to="Services">Services</Link></li>
-            <li><Link to="Customers">Customers</Link></li>
+            {/* <li><Link to="Customers">Customers</Link></li> */}
             <li><Link to="Career">Career</Link></li>
             <li><Link to="Faq">Faq</Link></li>
             <li><Link to="Contact Us">Contact Us</Link></li>

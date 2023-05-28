@@ -1,10 +1,12 @@
-
+import Customerstyle from "./Customers.module.css"
 
 
 function Customers(){
     return(
         <>
-        <h1>Customer</h1>
+        <h2 className={Customerstyle.CustomerMainHeading} ><b>Reviews</b></h2>
+    
+
         </>
     )
 }

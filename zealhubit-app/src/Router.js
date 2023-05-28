@@ -12,7 +12,7 @@ function Router(){
          <Routes>
             {/* <Route path="Home" element={<Home/>} /> */}
             <Route path="Services" element={<Services/>} />
-            <Route path="Customers" element={<Customers/>} />
+            {/* <Route path="Customers" element={<Customers/>} /> */}
             <Route path="Faq" element={<Faq/>} />
             <Route path="ContactUs" element={<ContactUs/>} />
             <Route path="Login" element={<Login/>} />
