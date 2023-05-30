@@ -2,16 +2,23 @@
 
 .ContactParent{
     display: flex;
+    background-color: rgb(5, 23, 47);
+    height: 100px;
 }
 
 .ContactParent >div:first-child{
     flex: 1;
     border: 1px solid green;
     text-align: center;
+    margin: 30px;
 }
 
 .ContactParent >div:nth-child(2){
     flex: 1;
     border: 1px solid red;
     text-align: center;
+    margin: 30px;
+}
+.ContactParent >div:nth-child(2) form input{
+  color: white;
 }
