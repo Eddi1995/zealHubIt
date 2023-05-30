@@ -1,0 +1,124 @@
+.FaqHeading{
+    font-size: 40px;
+    color: #ffc107;
+}
+
+.FaqParent{
+    border: 1px solid whitesmoke;
+    text-align: center;
+    padding: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 18px whitesmoke;
+}
+
+.FaqParent button{
+    width: 70%;
+    padding: 16px;
+}
+.cardBody{
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-device-width:600px){
+    .FaqHeading{
+        font-size: 20px;
+        color: #ffc107;
+        text-align: center;
+    }
+
+    .FaqParent{
+        border: 1px solid whitesmoke;
+        text-align: center;
+        padding: 30px;
+        margin-left: 12px;
+        margin-right: 12px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 18px whitesmoke;
+    }
+    .FaqParent button{
+        width: 300px;
+        padding: 14px;
+    }
+    .cardBody{
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media only screen and (min-device-width:601px) and (max-device-width:1100px){
+
+    .FaqHeading{
+        /* font-size: 20px; */
+        color: #ffc107;
+        text-align: center;
+    }
+
+    .FaqParent{
+        border: 1px solid whitesmoke;
+        text-align: center;
+        padding: 30px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 18px whitesmoke;
+    }
+    .FaqParent button{
+        width: 90%;
+        padding: 14px;
+        
+    }
+    .cardBody{
+        margin-left: 30px;
+        margin-right: 30px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media only screen and (min-device-width:1101px) and (max-device-width:1600px){
+
+    .FaqHeading{
+        /* font-size: 20px; */
+        color: #ffc107;
+        text-align: center;
+    }
+
+    .FaqParent{
+        border: 1px solid whitesmoke;
+        text-align: center;
+        padding: 30px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 18px whitesmoke;
+    }
+    .FaqParent button{
+        width: 90%;
+        padding: 14px;
+        
+    }
+    .cardBody{
+        margin-left: 30px;
+        margin-right: 30px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+}

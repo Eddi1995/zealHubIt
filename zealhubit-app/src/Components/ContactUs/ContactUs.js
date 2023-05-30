@@ -1,11 +1,18 @@
 
-
+import Contactstyle from "./ContactUs.module.css"
 
 
 function ContactUs(){
     return(
         <>
-        <h1>ContactUs</h1>
+         <section class={Contactstyle.ContactParent}>  {/*parent*/}
+            <div>   {/*child1*/}
+               hellowone
+            </div>
+            <div>    {/*child2*/}
+              hellowtwo
+            </div>
+         </section>
         </>
     )
 }
