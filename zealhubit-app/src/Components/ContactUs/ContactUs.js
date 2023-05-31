@@ -8,14 +8,13 @@ function ContactUs(){
         <>
          <section class={Contactstyle.ContactParent}>  {/*parent*/}
             <div>   {/*child1*/}
-            <h2>We Love To Help You!</h2>
-               {/* <h2>We Love To Help You!</h2>
+               <h2>We Love To Help You!</h2>
                <h5>Send us a message and we will be in touch within on Business day</h5>
                <div >
                   <h6>We offer full-cycle technology solutions that streamline your digital transformation journey. 
                      with cutting _edge technical expertise, zeakHubIt simplifies complex business challenges with 
                      innovative solutions for 100+fastest-growing enterprises.</h6>
-               </div> */}
+               </div>
             </div>
 
             <div>    {/*child2*/}
@@ -55,6 +54,7 @@ function ContactUs(){
                </form>
             </div>
          </section>
+         
         </>
     )
 }

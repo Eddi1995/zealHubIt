@@ -1,0 +1,20 @@
+
+
+.footerParent{
+    display: flex;
+    flex-wrap:wrap ;
+    text-align: center;
+}
+
+.footerParent >div:first-child{
+    flex: 1;
+   
+}
+.footerParent >div:nth-child(2){
+    flex: 1;
+    
+}
+.footerParent >div:nth-child(3){
+    flex: 1;
+  
+}
