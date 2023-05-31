@@ -2,23 +2,88 @@
 
 .ContactParent{
     display: flex;
-    background-color: rgb(5, 23, 47);
-    height: 100px;
+
 }
 
-.ContactParent >div:first-child{
+.ContactParent >div:first-child{ 
+    
     flex: 1;
-    border: 1px solid green;
+    background: rgb(5, 23, 47);
     text-align: center;
-    margin: 30px;
+   
+     height: 100%;
+     border-right: 200px solid black;
+     border-top: 670px solid  rgb(5, 23, 47);
+     
 }
+.ContactParent >div:first-child h2{
+    font-size: 60px;
+    color: #ffc107 ;
+    background: transparent;
+    position: absolute;
+    top: 4300px;
+    
+}
+.ContactParent >div:first-child div{
+     padding: 30px; 
+     background: transparent;
+}
+.ContactParent >div:first-child h5{
+    background: transparent;
+}
+.ContactParent >div:first-child div h6{
+    font-size: 17px;
+    background: transparent;
+}
+
 
 .ContactParent >div:nth-child(2){
     flex: 1;
-    border: 1px solid red;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0 0px 8px whitesmoke;
     text-align: center;
-    margin: 30px;
+     margin: 60px;
+    padding: 30px;
 }
-.ContactParent >div:nth-child(2) form input{
-  color: white;
+.ContactParent >div:nth-child(2) form{
+    background: transparent;
+    text-align: -webkit-center;
+  }
+
+.ContactParent >div:nth-child(2) h3{
+    font-size: 30px;
+    color:#ffc107 ;
+  }
+
+.ContactParent >div:nth-child(2) input{
+    background-color: white;
+    width: 60%;
+  }
+
+.ContactParent >div:nth-child(2) select{
+    background-color: white;
+    width: 60%;
+  }
+
+.ContactParent >div:nth-child(2) option{
+    background-color: white;
+    width: 60%;
+  }
+
+.ContactParent >div:nth-child(2) textarea{
+    background-color: white;
+    width: 80%;
 }
+
+.ContactParent >div:nth-child(2) h6{
+    padding:20px;
+    color: white;
+    width: 100%;
+}
+
+.ContactParent >div:nth-child(2) button{
+    color: black;
+    width: 60%;
+}
+
