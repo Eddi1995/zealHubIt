@@ -20,14 +20,14 @@ function App() {
    <Nav/>
    <Home/>
    <Router/>
-  <Services/>
+  {/* <Services/> */}
    {/* <Customers/> */}
-   <Career/>
+   {/* <Career/>
     <Faq/>
-  <ContactUs/>
+  <ContactUs/> */}
    {/* <Login/> */}
    <Footer/>
-
+  
   
     
    </div>
