@@ -1,0 +1,19 @@
+
+
+
+.formControlling{
+    border:  1px solid whitesmoke;
+    text-align: center;
+
+}
+.formControlling form{
+    border: 1px solid red;
+    margin-left: 600px;
+    margin-right: 600px;
+    padding: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-left-style: solid;
+    border-left-width: 80px;
+    border-left-color: red;
+}

@@ -25,7 +25,7 @@ function App() {
    {/* <Career/>
     <Faq/>
   <ContactUs/> */}
-   {/* <Login/> */}
+   <Login/>
    <Footer/>
   
   
