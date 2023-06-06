@@ -34,3 +34,6 @@
 .formControlling form h6 a{
     text-decoration: none;
 }
+.formControlling form [required]{
+    color: green;
+}

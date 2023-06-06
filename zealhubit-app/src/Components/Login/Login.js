@@ -13,13 +13,13 @@ class Login extends Component{
   validatingform=()=>{
   let emailerr="";
   let passworderr="";
+  let pattern=new RegExp(/^([0-9][a-z][A-Z]).{4}$/)
  
-     if(this.state.email.length<=1){
-      emailerr="";
-     }
-     if(this.state.password.length===0){
-      passworderr=""
-     }
+   if(!pattern.test(this.state.email)){
+      emailerr="Minimum 4 char are required"
+   }
+    this.setState({emailerr:emailerr});
+    console.log(this.state.emailerr)
   
   }
 
