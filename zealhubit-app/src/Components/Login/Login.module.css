@@ -16,4 +16,21 @@
     border-left-style: solid;
     border-left-width: 80px;
     border-left-color: red;
+    border-radius: 10px solid red;
+}
+.formControlling form button{
+    width: 60%;
+}
+.formControlling form button:hover{
+    width: 60%;
+    background-color: rgb(5, 23, 47);
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+}
+.formControlling form h6{
+     font-size: 13px;
+     padding: 6px;
+}
+.formControlling form h6 a{
+    text-decoration: none;
 }
