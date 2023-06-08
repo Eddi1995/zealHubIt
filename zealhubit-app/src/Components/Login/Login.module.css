@@ -2,9 +2,7 @@
 
 
 .formControlling{
-    border:  1px solid whitesmoke;
     text-align: center;
-
 }
 /* rgb(5, 23, 47)#ffc107  */
 .formControlling form{
@@ -32,7 +30,7 @@
     color: whitesmoke;
 }
 .formControlling form h6{
-     font-size: 13px;
+     font-size: 12px;
      padding: 6px;
 }
 .formControlling form h6 a{
@@ -40,4 +38,79 @@
 }
 .formControlling form p{
     color: orange;
+}
+
+@media only screen and (max-device-width:600px){
+
+    .formControlling form{
+        border: 1px solid #ffc107;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 30px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-left-style: solid;
+        /* border-left-width: 25px; */
+        /* border-left-color: none; */
+        border-radius: 80px ;
+        background-color: transparent;
+        box-shadow: 0px 0px 20px #ffc107;
+    }
+    
+}
+
+@media only screen and (min-device-width:601px) and (max-device-width:1100px){
+
+    .formControlling form{
+        border: 1px solid #ffc107;
+        margin-left: 150px;
+        margin-right: 150px;
+        padding: 30px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-left-style: solid;
+        /* border-left-width: 25px; */
+        /* border-left-color: none; */
+        border-radius: 40px ;
+        background-color: transparent;
+        box-shadow: 0px 0px 20px #ffc107;
+    }
+  
+}
+
+@media only screen and (min-device-width:1101px) and (max-device-width:1550px){
+
+    .formControlling form{
+        border: 1px solid #ffc107;
+        margin-left: 300px;
+        margin-right: 300px;
+        padding: 30px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-left-style: solid;
+        /* border-left-width: 25px; */
+        /* border-left-color: none; */
+        border-radius: 40px ;
+        background-color: transparent;
+        box-shadow: 0px 0px 20px #ffc107;
+    }
+  
+}
+@media only screen and (min-device-width:1551px) and (max-device-width:1800px){
+
+    .formControlling form{
+        border: 5px solid whitesmoke;
+        margin-left: 570px;
+        margin-right: 570px;
+        padding: 80px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-left-style: solid;
+        border-left-width: 25px;
+        border-left-color: #ffc107 ;
+        border-radius: 450px ;
+        background-color: transparent;
+        box-shadow: 0px 0px 20px #ffc107;
+    }
+
 }

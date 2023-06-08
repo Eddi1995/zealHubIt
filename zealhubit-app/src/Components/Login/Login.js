@@ -61,7 +61,7 @@ class Login extends Component{
                 <p>{this.state.passworderr}</p>
                 <h6>By continuing, I agree to the <a href="#">Terms of Use</a> & <a href="#">Privacy Policy</a></h6>
                 <button onClick={this.controllingLogin} className="btn btn-warning">Submit</button>
-                <h6 >Have trouble logging in? <a href="#">Get help</a></h6>
+                <h6 >Have trouble logging in? <a href="#">forgot password?</a></h6>
               </form>
             </section>
         )
