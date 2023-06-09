@@ -11,6 +11,7 @@ import ContactUs from './Components/ContactUs/ContactUs';
 import Login from './Components/Login/Login';
 import Footer from './Components/Footer/Footer';
 import Router from './Router';
+import Signup from './Components/Signup/Signup';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
     <Faq/>
   <ContactUs/> */}
    <Login/>
+   <Signup/>
    <Footer/>
   
   
