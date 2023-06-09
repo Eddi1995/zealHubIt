@@ -26,8 +26,8 @@ function App() {
    {/* <Career/>
     <Faq/>
   <ContactUs/> */}
-   <Login/>
-   <Signup/>
+   {/* <Login/> */}
+   {/* <Signup/> */}
    <Footer/>
   
   

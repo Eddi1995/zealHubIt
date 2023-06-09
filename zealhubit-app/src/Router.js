@@ -6,6 +6,7 @@ import Faq from "./Components/Faq/Faq";
 import ContactUs from "./Components/ContactUs/ContactUs";
 import Login from "./Components/Login/Login";
 import Career from "./Components/Career/Career";
+import Signup from "./Components/Signup/Signup";
 
 function Router(){
     return(
@@ -18,6 +19,7 @@ function Router(){
             <Route path="Faq" element={<Faq/>} />
             <Route path="ContactUs" element={<ContactUs/>} />
             <Route path="Login" element={<Login/>} />
+            <Route path="signup" element={<Signup/>}/>
           
          </Routes>
         </>
