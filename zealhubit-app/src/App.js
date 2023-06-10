@@ -21,13 +21,13 @@ function App() {
    <Nav/>
    <Home/>
    <Router/>
-  {/* <Services/> */}
+  <Services/>
    {/* <Customers/> */}
-   {/* <Career/>
+    <Career/>
     <Faq/>
-  <ContactUs/> */}
-   {/* <Login/> */}
-   {/* <Signup/> */}
+  <ContactUs/> 
+   <Login/> 
+    <Signup/> 
    <Footer/>
   
   

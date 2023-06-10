@@ -1,0 +1,94 @@
+
+
+.SignupParent{
+    text-align: center;
+    padding-left: 650px;
+    padding-right: 650px;
+    background: linear-gradient(180deg, transparent, rgb(5, 23, 47));
+    display: flex;
+    flex-wrap: wrap;
+}
+/* rgb(5, 23, 47)#ffc107  */
+.SignupParent form{
+    padding: 30px;
+    margin: 120px;
+    border: 1px solid rgb(173, 173, 173);
+    border-radius: 10px;
+    box-shadow: -16px -19px 2px whitesmoke;
+    background: transparent;
+}
+ .SignupParent form label{
+  background: transparent;
+} 
+.SignupParent form span{
+    background: transparent;
+  } 
+  .SignupParent form span>a{
+    background: transparent;
+  } 
+
+  @media only screen and (max-device-width:600px){
+    .SignupParent{
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        background: linear-gradient(180deg, transparent, rgb(5, 23, 47));
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .SignupParent form{
+        padding: 15px;
+        margin: 30px;
+        border: 1px solid rgb(173, 173, 173);
+        border-radius: 10px;
+        box-shadow: -16px -19px 2px whitesmoke;
+        background: transparent;
+    }
+    .SignupParent form label{
+        background: transparent;
+        font-size: 12px;
+      } 
+      .SignupParent form span{
+          background: transparent;
+          font-size: 12px;
+        } 
+        .SignupParent form span>a{
+          background: transparent;
+        } 
+  }
+  @media only screen and (min-device-width:601px) and (max-device-width:1100px){
+
+    .SignupParent{
+        text-align: center;
+        padding-left: 80px;
+        padding-right: 80px;
+        background: linear-gradient(180deg, transparent, rgb(5, 23, 47));
+        display: flex;
+        flex-wrap: wrap;
+    }
+  }
+  @media only screen and (min-device-width:1101px) and (max-device-width:1600px){
+
+    .SignupParent{
+        text-align: center;
+        padding-left: 450px;
+        padding-right: 450px;
+        background: linear-gradient(180deg, transparent, rgb(5, 23, 47));
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .SignupParent form{
+        padding: 15px;
+        margin: 60px;
+        border: 1px solid rgb(173, 173, 173);
+        border-radius: 10px;
+        box-shadow: -16px -19px 2px whitesmoke;
+        background: transparent;
+    }
+    .SignupParent form h5{
+        letter-spacing: 4px;
+       
+    }
+  }
+  
+
