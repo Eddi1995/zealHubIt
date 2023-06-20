@@ -33,7 +33,7 @@ function Signup(){
             <input type="checkbox" name="Confirming"/>
             <span className="p-1">Creating your account and you accepting <a href="#">Terms & Conditions</a></span>
             <p></p>
-            <input className="btn btn-warning" type="submit" value="Create Account"/>
+            <input className="btn btn-warning" type="submit" value="Create Account" />
             </form>
 
 
