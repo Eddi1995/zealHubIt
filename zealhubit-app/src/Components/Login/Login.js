@@ -53,7 +53,9 @@ class Login extends Component{
 
     render(){
         return(
+         
             <section class={Loginstyle.formControlling}>
+               <h1>THIS IS EDWIN</h1>
               <form>
                 <span className="text-warning fs-3 p-1 bg-transparent">Login</span><span className="fs-3 p-3 bg-transparent">&#129488;</span>
                 <input type="email" name="email" placeholder="E-mail id*" className="form-control" onChange={this.inputValues} required />
