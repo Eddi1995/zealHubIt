@@ -1,27 +1,15 @@
 
-.ulcontroling{
-    font-size: 30px;
+.navControlling ul{
+   border: 10px solid red;
+ 
 }
 
-.ulcontroling li{
-  border-radius: 30px;
-    text-align: center;
-    list-style: none;
-    background-color: white;
-    color: black;
-    margin-right: 30px;
-    margin-left: 30px;
+.navControlling ul li{
+  border: 10px solid rgb(37, 218, 9);
+  color: rgb(217, 30, 170);
 }
 
-.ulcontroling li a{
-  background-color: white;
-  text-decoration: none;
-  color: black;
+.navControlling ul li>a:hover a{
+ /* border: 20px solid yellow; */
+ color: yellow;
 }
-.ulcontroling li a:hover{
-    color: orange;
-  }
-/* .headingcontrol a{
- text-decoration: none;
- background-color: white;
-} */
