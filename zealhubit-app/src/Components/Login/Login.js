@@ -10,7 +10,7 @@ class Login extends Component{
     emailerr:"",
     passworderr:"",
   }
-  
+
 
   validatingform =()=>{
   let emailerr="";
@@ -65,7 +65,6 @@ class Login extends Component{
        console.log(this.state)
   }
 
- 
     render(){
         return(
          

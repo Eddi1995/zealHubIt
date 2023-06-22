@@ -4,31 +4,42 @@ import { Link } from "react-router-dom";
 function Nav(){
     return(
         <>
-        <div class={Navstyle.navParent} >
-    
-        <div className="collapse" id="navbarToggleExternalContent">
-    <div className="bg-black p-4" >
-
-        <ul class={Navstyle.ulcontroling}>
-            {/* <li><Link to="Home" >Home</Link></li> */}
-            <li><Link to="Services">Services</Link></li>
-            {/* <li><Link to="Customers">Customers</Link></li> */}
-            <li><Link to="Career">Career</Link></li>
-            <li><Link to="Faq">Faq</Link></li>
-            <li><Link to="ContactUs">Contact Us</Link></li>
-            <li><Link to="Login">Login</Link></li>
-        </ul>
         
-  
-    </div>
-    </div>
-     <nav className="navbar navbar-dark bg-black">
-      <div className="container-fluid">
-      <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+   
+        <div class={Navstyle.navControlling}>
+<nav className="navbar navbar-expand-lg bg-body-tertiary text-primary ">
+  <div className="container-fluid ">
+    <Link to="Home" className="navbar-brand text-white fs-3" >Home</Link>
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
-      </button>
-      </div>
-       </nav>
+    </button>
+    <div className="collapse navbar-collapse border border-warning rounded-1" id="navbarNavDropdown" >
+      <ul  className="navbar-nav fs-5" >
+        
+        <li className="nav-item">
+          <Link to="this" className="nav-link active" aria-current="page">Services</Link>
+        </li>
+        <li className="nav-item">
+          {/* <a className="nav-link text-white" href="#">Customers</a> */}
+        </li>
+        <li className="nav-item">
+          <Link to="Career" className="nav-link text-white">Career</Link>
+        </li>
+        <li className="nav-item">
+          <Link to="Faq" className="nav-link text-white">Faq</Link>
+        </li>
+        <li className="nav-item">
+          <Link to="ContactUs" className="nav-link text-white">Contact Us</Link>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link text-white" href="#">Track order</a>
+        </li>
+      
+      </ul>
+    </div>
+   </div>
+ </nav>
+
 
        </div>
 
