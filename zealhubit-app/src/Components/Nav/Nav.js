@@ -9,30 +9,30 @@ function Nav(){
         <div class={Navstyle.navControlling}>
 <nav className="navbar navbar-expand-lg bg-body-tertiary text-primary ">
   <div className="container-fluid ">
-    <Link to="Home" className="navbar-brand text-white fs-3" >Home</Link>
+    <Link to="Home" className="navbar-brand text-warning fs-3 me-4" >Home</Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
-    <div className="collapse navbar-collapse border border-warning rounded-1" id="navbarNavDropdown" >
+    <div className="collapse navbar-collapse  rounded-1" id="navbarNavDropdown" >
       <ul  className="navbar-nav fs-5" >
         
         <li className="nav-item">
-          <Link to="this" className="nav-link active" aria-current="page">Services</Link>
+          <Link to="this" className="nav-link " aria-current="page">Services</Link>
         </li>
         <li className="nav-item">
           {/* <a className="nav-link text-white" href="#">Customers</a> */}
         </li>
         <li className="nav-item">
-          <Link to="Career" className="nav-link text-white">Career</Link>
+          <Link to="Career" className="nav-link ">Career</Link>
         </li>
         <li className="nav-item">
-          <Link to="Faq" className="nav-link text-white">Faq</Link>
+          <Link to="Faq" className="nav-link">Faq</Link>
         </li>
         <li className="nav-item">
-          <Link to="ContactUs" className="nav-link text-white">Contact Us</Link>
+          <Link to="ContactUs" className="nav-link ">Contact Us</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link text-white" href="#">Track order</a>
+          <a className="nav-link" href="#">Track order</a>
         </li>
       
       </ul>

@@ -1,12 +1,12 @@
 import { Routes,Route } from "react-router-dom";
-import Home from "./Components/Home/Home";
-import Services from "./Components/Services/Services";
-import Customers from "./Components/Customers/Customers";
-import Faq from "./Components/Faq/Faq";
-import ContactUs from "./Components/ContactUs/ContactUs";
-import Login from "./Components/Login/Login";
-import Career from "./Components/Career/Career";
-import Signup from "./Components/Signup/Signup";
+import Home from "./Pages/Home/Home";
+import Services from "./Pages/Services/Services";
+import Customers from "./Pages/Customers/Customers";
+import Faq from "./Pages/Faq/Faq";
+import ContactUs from "./Pages/ContactUs/ContactUs";
+import Login from "./Pages/Login/Login";
+import Career from "./Pages/Career/Career";
+import Signup from "./Pages/Signup/Signup";
 
 function Router(){
     return(

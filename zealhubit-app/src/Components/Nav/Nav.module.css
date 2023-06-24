@@ -1,15 +1,15 @@
 
-.navControlling ul{
-   border: 10px solid red;
- 
-}
-
 .navControlling ul li{
-  border: 10px solid rgb(37, 218, 9);
+  /* margin: 5px; */
+  padding: 6px solid transparent;
   color: rgb(217, 30, 170);
 }
-
-.navControlling ul li>a:hover a{
- /* border: 20px solid yellow; */
- color: yellow;
+.navControlling ul li a{
+  color: white;
 }
+.navControlling ul li a:hover{
+   background-color: white;
+   border-radius: 6px;
+   color: rgb(5, 23, 47);
+ }
+
