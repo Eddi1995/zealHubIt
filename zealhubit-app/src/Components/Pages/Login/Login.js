@@ -9,9 +9,23 @@ class Login extends Component{
     password:"",
     emailerr:"",
     passworderr:"",
+    userData:[],
   }
 
-                           //step 1
+                                //step 1
+
+    componentDidMount(){
+      this.apiFetch();
+    }
+
+    apiFetch=async()=>{
+      let url="https://fakestoreapi.com/users";
+
+     await fetch(url).then((userdata)=> userdata.json()).catch((error)=>{console.log("error in data fetching")})
+      console.log(response);
+    }
+
+                           //step 2
 
   inputValues=(e)=>{
        let {name,value}  = e.target;
@@ -19,7 +33,7 @@ class Login extends Component{
        console.log(this.state)
   }
 
-                          //step 2
+                          //step 3
 
   controllingLogin=(e)=>{
     e.preventDefault();
@@ -38,7 +52,7 @@ class Login extends Component{
       
    }
 }
-                         //step 3
+                         //step 4
 
 validatingform =()=>{
   let emailerr="";
@@ -67,6 +81,8 @@ validatingform =()=>{
    }
 
   }
+
+
 
     render(){
         return(
