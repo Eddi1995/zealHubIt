@@ -11,8 +11,36 @@ class Login extends Component{
     passworderr:"",
   }
 
+                           //step 1
 
-  validatingform =()=>{
+  inputValues=(e)=>{
+       let {name,value}  = e.target;
+       this.setState({[name]:value})
+       console.log(this.state)
+  }
+
+                          //step 2
+
+  controllingLogin=(e)=>{
+    e.preventDefault();
+   let isValidForm= this.validatingform();
+
+   if (isValidForm){
+      //prepare the data which are need to send
+
+      let data={
+        email:this.state.email,
+        password:this.state.password,
+      }
+
+      // Make the POST request
+     axios.post("/users/authenticate",data).then((response)=>{console.log(response.data)}).catch((error)=>{console.log(error)})
+      
+   }
+}
+                         //step 3
+
+validatingform =()=>{
   let emailerr="";
   let passworderr="";
                          //Uncomment if you dont want required attribute
@@ -39,44 +67,19 @@ class Login extends Component{
    }
 
   }
-  
-
-  controllingLogin=(e)=>{
-      e.preventDefault();
-     let isValidForm= this.validatingform();
-
-     if (isValidForm){
-        //prepare the data which are need to send
-
-        let data={
-          email:this.state.email,
-          password:this.state.password,
-        }
-
-        // Make the POST request
-       axios.post("/users/authenticate",data).then((response)=>{console.log(response.data)}).catch((error)=>{console.log(error)})
-        
-     }
-  }
-
-  inputValues=(e)=>{
-       let {name,value}  = e.target;
-       this.setState({[name]:value})
-       console.log(this.state)
-  }
 
     render(){
         return(
          
             <section class={Loginstyle.formControlling}>
-              <form>
+              <form onSubmit={this.controllingLogin}>
                 <span className="text-warning fs-3 p-1 bg-transparent">Login</span><span className="fs-3 p-3 bg-transparent">&#129488;</span>
                 <input type="email" name="email" placeholder="E-mail id*" className="form-control" onChange={this.inputValues} required />
                 <p>{this.state.emailerr}</p>
                 <input type="password" name="password" placeholder="Password*" className="form-control" onChange={this.inputValues} />
                 <p>{this.state.passworderr}</p>
                 <h6>By continuing, I agree to the <a href="#">Terms of Use</a> & <a href="#">Privacy Policy</a></h6>
-                <button onClick={this.controllingLogin} className="btn btn-warning">Submit</button>
+                <button className="btn btn-warning">Submit</button>
                
                 <h6 >Have trouble logging in? <a href="#">forgot password?</a></h6>
               </form>
