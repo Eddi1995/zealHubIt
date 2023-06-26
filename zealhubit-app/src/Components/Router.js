@@ -20,7 +20,6 @@ function Router(){
             <Route path="ContactUs" element={<ContactUs/>} />
             <Route path="Login" element={<Login/>} />
             <Route path="signup" element={<Signup/>}/>
-          
          </Routes>
         </>
     )
