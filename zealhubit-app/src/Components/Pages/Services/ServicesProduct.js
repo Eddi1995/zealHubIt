@@ -2,7 +2,7 @@ import servicestyle from "./Services.module.css"
 import Tilt from "react-parallax-tilt"   //By using this import only tilt can be done refer 
 
 
-function Services(){
+function ServicesProduct(){
     return(
         <>
         <h2 class={servicestyle.serviceMainHeading} ><b>Services</b></h2>
@@ -71,4 +71,4 @@ function Services(){
         </>
     )
 }
-export default Services;
+export default ServicesProduct;
