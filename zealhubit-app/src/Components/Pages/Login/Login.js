@@ -10,6 +10,7 @@ class Login extends Component{
     emailerr:"",
     passworderr:"",
     userData:[],
+    filteredUserData:[],
   }
 
                                 //step 1
@@ -39,6 +40,7 @@ class Login extends Component{
    let isValidForm= this.validatingform();
 
    if (isValidForm){
+    
       //prepare the data which are need to send
 
       let data={
@@ -58,22 +60,34 @@ validatingform =()=>{
   let emailerr="";
   let passworderr="";
 
+
   let {email,userData}=this.state;                            //state emil//
-  let filterEmail=userData.filter((userData)=>userData.email==email)
+  let filterData=userData.filter((userData)=>userData.email==email)
                          //Uncomment if you dont want required attribute
                     
-  // let pattern2=new RegExp(/^[a-zA-Z0-9]{6,}$/)
-  let emailRegex=/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-z]{3}$/g
+
+ // let emailRegex=/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-z]{3}$/g
 
   let pattern2=/^[a-zA-Z0-9]{6,}$/g
  
         //ternary operates
-  let emailCondition= (filterEmail.length>0)?emailerr="Email exist":emailerr="Email Not exist";
- 
-  
-   if(!this.state.password.match(pattern2)){
+  // let emailCondition= (filterData.length>0)?this.setState({filteredUserData:filterData}):emailerr="Email Not exist";
+   
+ let emailCondition=filterData.length>0?(()=>{
+  this.setState({filteredUserData:filterData})
+  console.log(this.state);
+  return "";
+ })():(emailerr="Email does not match")
+
+
+
+  if(this.state.password==0){
+    passworderr="Password required*";
+  }
+  else if(!this.state.password.match(pattern2)){
     passworderr="Password should be minimum 6 char";
    }
+  
    if(emailerr||passworderr){
     this.setState({emailerr:emailerr,passworderr:passworderr});
     return false;
@@ -84,15 +98,6 @@ validatingform =()=>{
    }
 
   }
-
-  // checkingLogin=()=>{
-  //   let {email,userData}=this.state;
-  //   console.log(email);
-  //   console.log(userData)
-  // }
-
-
-
 
     render(){
         return(
@@ -105,7 +110,7 @@ validatingform =()=>{
                 <input type="password" name="password" placeholder="Password*" className="form-control" onChange={this.inputValues} />
                 <p>{this.state.passworderr}</p>
                 <h6>By continuing, I agree to the <a href="#">Terms of Use</a> & <a href="#">Privacy Policy</a></h6>
-                <button className="btn btn-warning" onClick={this.checkingLogin}>Submit</button>
+                <button className="btn btn-warning">Submit</button>
                
                 <h6 >Have trouble logging in? <a href="#">forgot password?</a></h6>
               </form>
