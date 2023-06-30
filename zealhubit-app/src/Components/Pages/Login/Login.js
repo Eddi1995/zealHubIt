@@ -46,7 +46,9 @@ class Login extends Component{
       let data={
         email:this.state.email,
         password:this.state.password,
+        fileter:this.state.filteredUserData
       }
+   
 
       // Make the POST request
 //     axios.post("/users/authenticate",data).then((response)=>{console.log(response.data)}).catch((error)=>{console.log(error)})
@@ -56,6 +58,8 @@ class Login extends Component{
                          //step 4
 
 validatingform =()=>{
+   // let emailRegex=/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-z]{3}$/g
+ // let pattern2=/^[a-zA-Z0-9]{6,}$/g
 
   let emailerr="";
   let passworderr="";
@@ -64,30 +68,27 @@ validatingform =()=>{
   let {email,userData}=this.state;                            //state emil//
   let filterData=userData.filter((userData)=>userData.email==email)
                          //Uncomment if you dont want required attribute
-                    
+    
+      //  console.log(filterData[0].password)  NOTE Just for checking
 
- // let emailRegex=/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-z]{3}$/g
-
-  let pattern2=/^[a-zA-Z0-9]{6,}$/g
- 
-        //ternary operates
-  // let emailCondition= (filterData.length>0)?this.setState({filteredUserData:filterData}):emailerr="Email Not exist";
+        //ternary operates 1st condition
+ let emailCondition= (filterData.length>0)?emailerr="":emailerr="Email Not exist";
    
- let emailCondition=filterData.length>0?(()=>{
-  this.setState({filteredUserData:filterData})
-  console.log(this.state);
-  return "";
- })():(emailerr="Email does not match")
-
-
-
   if(this.state.password==0){
     passworderr="Password required*";
   }
-  else if(!this.state.password.match(pattern2)){
-    passworderr="Password should be minimum 6 char";
-   }
-  
+  // else if(!this.state.password.match(pattern2)){
+  //   passworderr="Password should be minimum 6 char";
+  //  }
+  else{
+
+   if(filterData[0].password===this.state.password){
+       passworderr="";
+  }
+  else{
+    passworderr="Password didnt match";
+  }
+}
    if(emailerr||passworderr){
     this.setState({emailerr:emailerr,passworderr:passworderr});
     return false;
