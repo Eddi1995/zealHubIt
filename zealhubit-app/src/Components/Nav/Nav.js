@@ -17,7 +17,7 @@ function Nav(){
       <ul  className="navbar-nav fs-5" >
         
         <li className="nav-item">
-          <Link to="this" className="nav-link " aria-current="page">Services</Link>
+          <Link to="Services" className="nav-link " aria-current="page">Services</Link>
         </li>
         <li className="nav-item">
           {/* <a className="nav-link text-white" href="#">Customers</a> */}

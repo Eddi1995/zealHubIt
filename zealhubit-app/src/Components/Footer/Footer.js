@@ -8,7 +8,7 @@ function Footer(){
             <div> {/*childone  */}
               <ul>
                 <li><b>ABOUT ZEALHUBIT</b></li>
-                <li><a href="#">About Us</a></li>
+                <li><a href="http://localhost:3000/ContactUs">About Us</a></li>
                 <li><a href="#">Career</a></li>
                 <li><a href="#">Contact Us</a></li>
               </ul>
