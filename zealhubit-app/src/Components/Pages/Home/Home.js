@@ -12,7 +12,7 @@ function Home(){
                 <h5>Apply disruptive technologies to transform digital business growth with zealhub IT.</h5>
                 </div>
             </div>
- 
+
         </main>
         </>
     )
