@@ -1,5 +1,6 @@
 import Navstyle from "./Nav.module.css"
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import { Link} from "react-scroll";
 
 function Nav(){
     return(
@@ -9,7 +10,7 @@ function Nav(){
         <div class={Navstyle.navControlling}>
 <nav className="navbar navbar-expand-lg bg-body-tertiary text-primary ">
   <div className="container-fluid ">
-    <Link to="Home" className="navbar-brand text-warning fs-3 me-4" >Home</Link>
+    <Link activeClass="active" spy={true} smooth={true} offset={50} duration={500}  className="navbar-brand text-warning fs-3 me-4" >Home</Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -17,7 +18,7 @@ function Nav(){
       <ul  className="navbar-nav fs-5" >
         
         <li className="nav-item">
-          <Link to="Services" className="nav-link " aria-current="page">Services</Link>
+          <Link activeClass="active" to="ServicesProduct" spy={true} smooth={true} offset={-40} duration={250}  className="nav-link " aria-current="page">Services</Link>  {/* NOTE: This to="" which checks the application whether same id name given or not */}
         </li>
         <li className="nav-item">
           {/* <a className="nav-link text-white" href="#">Customers</a> */}
