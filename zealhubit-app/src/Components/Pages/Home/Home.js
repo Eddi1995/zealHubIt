@@ -4,7 +4,7 @@ import mainstyle from "./Home.module.css"
 function Home(){
     return(
         <>
-       <main class={mainstyle.mainParent}>   {/* parent */}
+       <main class={mainstyle.mainParent} id="Home">   {/* parent */}
             <div>      {/* child1 */}
             <img src="./Assetz/mainfour.webp" alt="bannerimage"/>
                 <div class={mainstyle.mainParentChild}>

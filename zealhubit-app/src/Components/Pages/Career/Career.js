@@ -3,7 +3,7 @@ import Careerstyle from "./Career.module.css"
 function Career(){
     return(
         <>
-        <div class={Careerstyle.CareerParent} >     {/* career parent*/}
+        <div class={Careerstyle.CareerParent} id="Career" >     {/* career parent*/}
 
             <div>   {/* career childone*/}
                <h3 className="text-center">ZealHubIt solution</h3>
