@@ -4,9 +4,8 @@ import Tilt from "react-parallax-tilt"   //By using this import only tilt can be
 
 function ServicesProduct(){
     return(
+      
         < >
-
-
        <h2 class={servicestyle.serviceMainHeading} id="ServicesProduct"><b>Services</b></h2>     {/*NOTE: This id is included because Link of react scroll look this id */}
 
       <section class={servicestyle.serviceParent} >    {/* parent */}

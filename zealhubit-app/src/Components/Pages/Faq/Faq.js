@@ -4,7 +4,7 @@ import Faqstyle from "./Faq.module.css"
 function Faq(){
     return(
         <>
-        <h2 class={Faqstyle.FaqHeading}>Frequently Asked Questions</h2>
+        <h2 class={Faqstyle.FaqHeading} id="Faq">Frequently Asked Questions</h2>
 
     <section class={Faqstyle.FaqParent}>
     <div>   {/* chid1 */}

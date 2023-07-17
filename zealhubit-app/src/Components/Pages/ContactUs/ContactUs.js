@@ -6,7 +6,7 @@ function ContactUs(){
 
     return(
         <>
-         <section class={Contactstyle.ContactParent}>  {/*parent*/}
+         <section class={Contactstyle.ContactParent} id="ContactUs">  {/*parent*/}
             <div>   {/*child1*/}
                <h2>We Love To Help You!</h2>
                <h5>Send us a message and we will be in touch within on Business day</h5>
