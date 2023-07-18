@@ -1,4 +1,8 @@
-
+.navControlling{
+  position: sticky;
+  top: 0;
+  z-index: 99;
+ }
 .navControlling ul li{
   /* margin: 5px; */
   padding: 6px solid transparent;
@@ -12,4 +16,5 @@
    border-radius: 6px;
    color: rgb(5, 23, 47);
  }
+
 

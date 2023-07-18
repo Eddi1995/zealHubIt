@@ -7,7 +7,7 @@ function Nav(){
         <>
         
    
-        <div class={Navstyle.navControlling} >
+        <div class={Navstyle.navControlling}  >
 <nav className="navbar navbar-expand-lg bg-body-tertiary text-primary ">
   <div className="container-fluid ">
     <Link activeClass="active" spy={true} smooth={true} offset={-60} duration={100} to="Home"  className="navbar-brand text-warning fs-3 me-4" >Home</Link>
@@ -18,22 +18,22 @@ function Nav(){
       <ul  className="navbar-nav fs-5" >
         
         <li className="nav-item">
-          <Link activeClass="active" to="ServicesProduct" spy={true} smooth={true} offset={-40} duration={100} className="nav-link" aria-current="page">Services</Link>  {/* NOTE: This to="" which checks the application whether same id name given or not */}
+          <Link activeClass="active" to="ServicesProduct" spy={true} smooth={true} offset={-65} duration={100} className="nav-link" aria-current="page">Services</Link>  {/* NOTE: This to="" which checks the application whether same id name given or not */}
         </li>
         <li className="nav-item">
           {/* <a className="nav-link text-white" href="#">Customers</a> */}
         </li>
         <li className="nav-item">
-          <Link activeClass="active" spy={true} smooth={true} offset={5} duration={150}  to="Career" className="nav-link ">Career</Link>
+          <Link activeClass="active" spy={true} smooth={true} offset={-80} duration={150}  to="Career" className="nav-link ">Career</Link>
         </li>
         <li className="nav-item">
-          <Link activeClass="active" spy={true} smooth={true} offset={-30} duration={150} to="Faq" className="nav-link">Faq</Link>
+          <Link activeClass="active" spy={true} smooth={true} offset={-70} duration={150} to="Faq" className="nav-link">Faq</Link>
         </li>
         <li className="nav-item">
-          <Link  activeClass="active" spy={true} smooth={true} offset={-30} duration={1000} to="ContactUs" className="nav-link">Contact Us</Link>
+          <Link  activeClass="active" spy={true} smooth={true} offset={-70} duration={200} to="ContactUs" className="nav-link">Contact Us</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Track order</a>
+          {/* <a className="nav-link" href="#">Track order</a> */}
         </li>
       
       </ul>
@@ -48,3 +48,6 @@ function Nav(){
     )
 }
 export default Nav;
+
+
+
