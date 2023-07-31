@@ -18,8 +18,11 @@ function Router(){
             {/* <Route path="Career" element={<Career/>}/>
             <Route path="Faq" element={<Faq/>} />
             <Route path="ContactUs" element={<ContactUs/>} /> */}
-            <Route path="Login" element={<Login/>} />
-            <Route path="signup" element={<Signup/>}/>
+          
+          {/* NOTE : This signup and login page should used for the furture update */}
+           
+            {/* <Route path="Login" element={<Login/>} />  
+            <Route path="signup" element={<Signup/>}/> */}
          </Routes>
         </>
     )

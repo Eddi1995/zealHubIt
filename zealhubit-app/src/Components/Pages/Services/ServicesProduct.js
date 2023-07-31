@@ -37,7 +37,7 @@ function ServicesProduct(){
            <img src="./Assetz/frontend1.jpg" className="card-img-top" alt="pythonImage"/>
           <div className="card-body">
            <h5 className="card-title text-warning">Python</h5>
-         <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+         <p className="card-text">Empower your project with python development. Harness the versatility, simplicity and robustness of python to build scalable web applications and data-driven solution.</p>
          <Link to="ContactUs" activeClass="active" spy={true} smooth={true} offset={50} duration={200} className="btn btn-warning">Click here for more info</Link>
           </div>
          </div>

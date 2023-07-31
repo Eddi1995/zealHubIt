@@ -1,25 +1,18 @@
 
-.headControl{
-    display: flex;
-    flex-wrap: wrap;
-}
-.headControl >div:first-child{
-    flex:70%;
-}
-.headControl >div:nth-child(2){
-    flex: 30%;
-    text-align: end;
-    padding: 20px;
+
+.headControl >div:first-child>a{
+    text-align: center;
 }
 
 .headerAlign{
-    text-align: start;
+    text-align: center;
     margin: 15px;
     font-size: 50px;
     padding-left: 40px;
 }
 .headerAlign a{
    text-decoration: none;
+   color: white;
 }
 .hrColor {
     color: orange;
@@ -29,15 +22,9 @@
 
 @media only screen and (max-device-width:600px){
 
-    .headControl{
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        border: 1px solid red;
-    }
-
+    
     .headerAlign{
-        text-align: start;
+        text-align: center;
         margin-top: 25px;
         font-size: 25px;
         padding-left: 6px;
@@ -45,14 +32,6 @@
     .headControl button{
        width: 70px;
     }
-    .headControl >div:first-child{
-        flex:1;
-    }
-    .headControl >div:nth-child(2){
-        flex: 1;
-        text-align: end;
-        margin-top: 0px;
-        padding-left: 10px;
-    }
+   
 
 }

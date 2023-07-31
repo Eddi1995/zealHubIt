@@ -37,7 +37,6 @@
     .mainParent{
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid red;
     }
     .mainParent >div:first-child{
         flex: 1;
@@ -57,7 +56,7 @@
      }
 
     .mainParent >div:first-child h2{
-        font-size: 14px;
+        font-size: 18px;
         margin: 8px;
         background: transparent;
      }

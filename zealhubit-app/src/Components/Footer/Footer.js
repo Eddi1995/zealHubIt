@@ -16,16 +16,15 @@ function Footer(){
             <div> {/*childtwo  */}
             <ul>
                 <li><b>ADDRESS</b></li>
-                <li>Astraea Life Sciences Pvt. Ltd.
-                 Astraea Court: #61, H B Samaja Road,
-                 Basavanagudi, Bangalore – 560004. India.</li>
+                <li>zealHub #373 3rd floor, 10th main road, Koramangala 8th block, Bangalore – 560047. India.</li>
               </ul>
             </div>
             <div>  {/*childthree  */}
             <ul>
                 <li><b>CONTACT</b></li>
-                <li>+91 XXXXXXXXXX</li>
-                <li>+91 XXXXXXXXXX</li>
+                <li>+91 8892592408</li>
+                <li>+91 8884400729</li>
+                <li>info@zealhubitsolutions.com</li>
                 <li>zealhubit@gmail.com</li>
               </ul>
             </div>
