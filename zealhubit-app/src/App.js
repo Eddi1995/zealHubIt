@@ -19,13 +19,13 @@ function App() {
 
    <Header/>
    <Nav/>
-   <Home/>
    <Router/>
-  <ServicesProduct/>
+   <Home/>
+   <ServicesProduct/>
+   <Career/>
+   <Faq/>
+   <ContactUs/> 
    {/* <Customers/> */}
-    <Career/>
-    <Faq/>
-  <ContactUs/> 
    {/* <Login/> 
     <Signup/>  */}
    <Footer/>

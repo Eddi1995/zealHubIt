@@ -1,3 +1,5 @@
+//NOTE : This page should used for the furture update
+
 import { Component } from "react";
 import Loginstyle from "./Login.module.css"
 import axios from "axios"

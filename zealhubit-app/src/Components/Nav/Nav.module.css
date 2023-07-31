@@ -2,11 +2,16 @@
   position: sticky;
   top: 0;
   z-index: 99;
+  border: "1px solid red";
+ }
+ .NavList {
+  border: 1px solid red;
+  display: flex;
+  flex-wrap: wrap;
  }
 .navControlling ul li{
-  /* margin: 5px; */
-  padding: 6px solid transparent;
   color: rgb(217, 30, 170);
+  list-style: none;
 }
 .navControlling ul li a{
   color: white;
@@ -15,6 +20,35 @@
    background-color: white;
    border-radius: 6px;
    color: rgb(5, 23, 47);
+ }
+
+ .navControlling ul>li:first-child{
+  flex: 1;
+  border: 1px solid red;
+ }
+ .navControlling ul>li:nth-child(2){
+  flex: 1;
+  border: 1px solid red;
+ }
+ .navControlling ul>li:nth-child(3){
+  flex: 1;
+  border: 1px solid red;
+ }
+ .navControlling ul>li:nth-child(4){
+  flex: 1;
+  border: 1px solid red;
+ }
+ .navControlling ul>li:nth-child(5){
+  flex: 1;
+  border: 1px solid red;
+ }
+ 
+ @media only screen and (max-device-width:600px){
+
+  .Nav_List{
+    border: "1px solid red";
+  }
+
  }
 
 

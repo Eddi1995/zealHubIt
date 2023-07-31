@@ -1,5 +1,6 @@
-import Signupstyle from "./Signup.module.css"
+//NOTE : This page should used for the furture update
 
+import Signupstyle from "./Signup.module.css"
 
 
 function Signup(){

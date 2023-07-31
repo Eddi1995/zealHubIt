@@ -12,8 +12,7 @@ function ContactUs(){
                <h5>Send us a message and we will be in touch within on Business day</h5>
                <div >
                   <h6>We offer full-cycle technology solutions that streamline your digital transformation journey. 
-                     with cutting _edge technical expertise, zeakHubIt simplifies complex business challenges with 
-                     innovative solutions for 100+fastest-growing enterprises.</h6>
+                     With cutting-edge technical expertise, ZealHub simplifies complex business challenges with innovative solutions for the fastest-growing enterprises.</h6>
                </div>
             </div>
 
@@ -28,27 +27,23 @@ function ContactUs(){
                 <input type="number" name="mobile number" className="form-control" placeholder="Mobile Number*"/>
                 <p></p>
                 <select className="form-control">
-                  <option>Request for Services?</option>
-                  <option>Dedicated Hiring</option>
-                  <option>Bussiness consulting</option>
-                  <option>Product Engineering</option>
+                  <option>Request for Services?<i class="fa-solid fa-arrow-down"></i></option>
                   <option>Web/App Development</option>
                   <option>Digital Marketing</option>
                   <option>Cloud Services</option>
                   <option>Data Analytics</option>
                   <option>Maintenance and Support</option>
-                  <option>Media Query</option>
-                  <option>Job Enquiry</option>
                   <option>Bulk mailing</option>
+                  <option>others</option>
                 </select>
                 <p></p>
                 <textarea className="form-control" placeholder="Comments">
 
                 </textarea>
                 <h6>
-                zealHubIt needs the contact information you provide to us to contact you about our products and services.
-                 By submitting the form you agree to zeakHubIt Privacy Policy and Cookies & Internet Advertising.
-                  Don't worry, our privacy practices and commitment to protecting your privacy always.
+                 zealHub needs the information you provide to us to contact you about our products and services. 
+                 By submitting the form, you agree to the ZealHub Privacy Policy and Cookies and Internet Advertising. 
+                 Don't worry; our privacy practises and commitment to protecting your privacy will always be there.
                 </h6>
                 <button className="btn btn-warning ">Submit</button>
                </form>

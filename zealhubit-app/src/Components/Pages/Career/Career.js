@@ -22,7 +22,7 @@ function Career(){
 
             <p class="card-text">A digital product engineering company. We integrate experience design and complex engineering to help our clients imagine what’s possible and accelerate their transition into tomorrow’s digital businesses.</p>
             <h5 className="text-warning">Job Description</h5>
-            <p class="card-text">We are looking for a JavaScript Developer who is motivated to combine the art of design with the art of programming. Responsibilities will include implementing visual elements and their behaviours with user interactions. You will work with both front-end and back-end web developers to build all client-side logic. You will also be bridging the gap between the visual elements and the server-side infrastructure, taking an active role on both sides, and defining how the application looks and functions.</p>
+            <p class="card-text">We are looking for a Full Stack Developer who is motivated to combine the art of design with the art of programming. Responsibilities will include implementing visual elements and their behaviours with user interactions. You will work with both front-end and back-end web developers to build all client-side logic. You will also be bridging the gap between the visual elements and the server-side infrastructure, taking an active role on both sides, and defining how the application looks and functions.</p>
             <h5 className="text-warning">Responsibilities</h5>
             <ul>
                 <li>Develop new user-facing features</li>
@@ -38,7 +38,7 @@ function Career(){
                 <li>Proficient understanding of cross-browser compatibility issues and ways to work around such issues</li>
             </ul>
 
-            <a href="#" class="btn btn-warning">Apply Now</a>
+            <a href="#" class="btn btn-warning"> Share your CV/Resume to info@zealhubitsolutions.com</a>
             </div>
 
 
