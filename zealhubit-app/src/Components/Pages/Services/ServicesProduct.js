@@ -15,7 +15,7 @@ function ServicesProduct(){
           <div className="card-body ">
            <h5 className="card-title text-warning">Web Development</h5>
          <p className="card-text">Innovation information and wide broadness of experience over different enterprises to assist customers with their custom web application development and support.</p>
-         <Link to="ContactUs" activeClass="active" spy={true} smooth={true} offset={50} duration={200} className="btn btn-warning">Click here for more info</Link>
+         <Link to="ContactUs" activeClass="active" spy={true} smooth={true} offset={-50} duration={200} className="btn btn-warning">Click here for more info</Link>
           </div>
          </div>
   
@@ -27,7 +27,7 @@ function ServicesProduct(){
           <div className="card-body">
            <h5 className="card-title text-warning">Mobile Development</h5>
          <p className="card-text">We provide top notch mobile app development in a variety of programming languages solutions. With capabilities in Hybrid and Native mobile apps we help our clients.</p>
-         <Link to="ContactUs" activeClass="active" spy={true} smooth={true} offset={50} duration={200} className="btn btn-warning">Click here for more info</Link>
+         <Link to="ContactUs" activeClass="active" spy={true} smooth={true} offset={-50} duration={200} className="btn btn-warning">Click here for more info</Link>
           </div>
          </div>
             
@@ -38,7 +38,7 @@ function ServicesProduct(){
           <div className="card-body">
            <h5 className="card-title text-warning">Python</h5>
          <p className="card-text">Empower your project with python development. Harness the versatility, simplicity and robustness of python to build scalable web applications and data-driven solution.</p>
-         <Link to="ContactUs" activeClass="active" spy={true} smooth={true} offset={50} duration={200} className="btn btn-warning">Click here for more info</Link>
+         <Link to="ContactUs" activeClass="active" spy={true} smooth={true} offset={-50} duration={200} className="btn btn-warning">Click here for more info</Link>
           </div>
          </div>
             </Tilt>
@@ -50,7 +50,7 @@ function ServicesProduct(){
           <div className="card-body">
            <h5 className="card-title text-warning">DevOps Services</h5>
          <p className="card-text">Our devops services aim at providing an automated using stackable virtual development practices which helps bridge the gap between development and operation.</p>
-          <Link to="ContactUs" activeClass="active" spy={true} smooth={true} offset={50} duration={200} className="btn btn-warning">Click here for more info</Link>
+          <Link to="ContactUs" activeClass="active" spy={true} smooth={true} offset={-50} duration={200} className="btn btn-warning">Click here for more info</Link>
           </div>
          </div>
             </Tilt>
@@ -61,8 +61,8 @@ function ServicesProduct(){
                <img src="./Assetz/bulkmailone.jpg" className="card-img-top" alt="mailphot"/>
               <div className="card-body">
                <h5 className="card-title text-warning">Bulk Mailing</h5>
-             <p className="card-text">managing and sending large quantities of mail at reduced rates, so it's an incredibly useful tool for any business looking to expand and reach new customers.</p>
-             <Link to="ContactUs" activeClass="active" spy={true} smooth={true} offset={50} duration={200} className="btn btn-warning">Click here for more info</Link>
+             <p className="card-text">It's an enormously helpful tool for any business trying to grow and attract new clients because it allows for management and sending of massive volumes of mail at lower costs.</p>
+             <Link to="ContactUs" activeClass="active" spy={true} smooth={true} offset={-50} duration={200} className="btn btn-warning">Click here for more info</Link>
               </div>
              </div>
                 </Tilt>
