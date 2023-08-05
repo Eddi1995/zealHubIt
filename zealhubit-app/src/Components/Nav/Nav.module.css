@@ -4,51 +4,17 @@
   z-index: 99;
   border: "1px solid red";
  }
- .NavList {
-  border: 1px solid red;
-  display: flex;
-  flex-wrap: wrap;
- }
-.navControlling ul li{
-  color: rgb(217, 30, 170);
-  list-style: none;
-}
+
 .navControlling ul li a{
   color: white;
 }
 .navControlling ul li a:hover{
-   background-color: white;
-   border-radius: 6px;
+   background-color: #ffc107;
+   border-radius: 2px;
    color: rgb(5, 23, 47);
+   transition: 0.2s;
  }
 
- .navControlling ul>li:first-child{
-  flex: 1;
-  border: 1px solid red;
- }
- .navControlling ul>li:nth-child(2){
-  flex: 1;
-  border: 1px solid red;
- }
- .navControlling ul>li:nth-child(3){
-  flex: 1;
-  border: 1px solid red;
- }
- .navControlling ul>li:nth-child(4){
-  flex: 1;
-  border: 1px solid red;
- }
- .navControlling ul>li:nth-child(5){
-  flex: 1;
-  border: 1px solid red;
- }
- 
- @media only screen and (max-device-width:600px){
 
-  .Nav_List{
-    border: "1px solid red";
-  }
-
- }
 
 

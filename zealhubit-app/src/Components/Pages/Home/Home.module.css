@@ -9,7 +9,7 @@
     flex: 1;
     border-radius: 30px;
     text-align: center;
-    height: 1000px;
+    height: 965px;
     z-index: 0;
 }
 .mainParent >div:first-child img{
@@ -23,7 +23,7 @@
  }
 
 .mainParent >div:first-child h2{
-   font-size: 70px;
+   font-size: 59px;
    margin: 25px;
    background: transparent;
 }
@@ -110,7 +110,6 @@
     display: flex;
     flex-wrap: wrap;
     height: 800px;
-    border: 2px solid red;
     }
     .mainParent >div:first-child{
         flex: 1;
@@ -140,7 +139,15 @@
       }
 
  }
+/* @media only screen and (min-device-width:1401px) and (max-device-width:1700px){
 
+   .mainParent{
+      display: flex;
+      flex-wrap: wrap;
+      height: 600px;
+      }
+
+} */
 
 
 

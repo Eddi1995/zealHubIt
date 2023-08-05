@@ -1,6 +1,8 @@
 .serviceMainHeading{
   font-size: 55px;
   color: #ffc107;
+  padding-top: 50px;
+  padding-left: 20px;
 }
 
 
@@ -219,7 +221,7 @@
     .serviceParent{
       display: flex;
       flex-wrap: wrap;
-      gap: 15px;
+      gap: 8px;
       padding: 10px;
     
   }
