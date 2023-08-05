@@ -1,5 +1,6 @@
 .CareerParent{
     height: 1100px;
+    border-bottom: 1px solid whitesmoke;
 }
 
 .CareerParent >div:first-child{
@@ -30,7 +31,7 @@
 @media only screen and (max-device-width:380px){
 
     .CareerParent{
-        height: 1775px;
+        height: 1850px;
     }
   
     .CareerchildtwoSubchild{
@@ -57,7 +58,7 @@
 @media only screen and (min-device-width:381px) and (max-device-width:450px){
 
     .CareerParent{
-        height: 1700px;
+        height: 1775px;
     }
 
     .CareerchildtwoSubchild{
@@ -109,10 +110,10 @@
 }
 @media only screen and (min-device-width:600px) and (max-device-width:1100px){
 
-    
+ 
     .CareerParent{
         height: 1050px;
-    }
+    } 
 
     .CareerchildtwoSubchild{
         margin: 25px;

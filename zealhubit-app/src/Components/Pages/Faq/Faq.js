@@ -25,7 +25,7 @@ function Faq(){
 
       <div> {/* chid2 */}
         <p>
-         <button className="btn btn-warning" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExampleTwo" aria-expanded="false" aria-controls="collapseExampleTwo">
+         <button className="btn btn-warning mt-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExampleTwo" aria-expanded="false" aria-controls="collapseExampleTwo">
            Q. What is the project management style of zealHubIt?
         </button>
         </p>
@@ -39,7 +39,7 @@ function Faq(){
 
     <div>  {/* chid3 */}
         <p>
-         <button className="btn btn-warning" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExampleThree" aria-expanded="false" aria-controls="collapseExampleTwo">
+         <button className="btn btn-warning mt-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExampleThree" aria-expanded="false" aria-controls="collapseExampleTwo">
            Q. How much do i need to pay for availing the services of zealHub?
         </button>
         </p>
@@ -55,7 +55,7 @@ function Faq(){
 
     <div>   {/* chid4 */}
          <p>
-         <button className="btn btn-warning" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExampleFour" aria-expanded="false" aria-controls="collapseExampleTwo">
+         <button className="btn btn-warning mt-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExampleFour" aria-expanded="false" aria-controls="collapseExampleTwo">
            Q. Does zealHubIt provide any project timelines?
         </button>
         </p>

@@ -3,7 +3,7 @@ import Careerstyle from "./Career.module.css"
 function Career(){
     return(
         <>
-        <div class={Careerstyle.CareerParent} id="Career" >     {/* career parent*/}
+        <section class={Careerstyle.CareerParent} id="Career" >     {/* career parent*/}
 
             <div>   {/* career childone*/}
                <h3 className="text-center">ZealHubIt solution</h3>
@@ -38,7 +38,7 @@ function Career(){
                 <li>Proficient understanding of cross-browser compatibility issues and ways to work around such issues</li>
             </ul>
 
-            <a href="#" class="btn btn-warning"> Share your CV/Resume to info@zealhubitsolutions.com</a>
+            <a class="btn btn-warning"> Share your CV/Resume to info@zealhubitsolutions.com</a>
             </div>
 
 
@@ -51,7 +51,7 @@ function Career(){
 
     </div>
 
-          </div>
+          </section>
 
         </>
     )

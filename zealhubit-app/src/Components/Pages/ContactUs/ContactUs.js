@@ -4,6 +4,10 @@ import Contactstyle from "./ContactUs.module.css"
 
 function ContactUs(){
 
+  function submitting(){
+   
+  }
+
     return(
         <>
          <section class={Contactstyle.ContactParent} id="ContactUs">  {/*parent*/}
@@ -18,16 +22,16 @@ function ContactUs(){
 
             <div>    {/*child2*/}
            
-               <form >
+               <form onSubmit={submitting()}>
                <h3>Lets Get Started</h3>
                 <input  type="text" name="firstname" className="form-control" placeholder="Full Name*" required/>
                 <p></p>
-                <input type="email" name="compny Email" className="form-control" placeholder="Company Email"/>
+                <input type="email" name="company Email" className="form-control" placeholder=" Email* " required autoComplete="off"/>
                 <p></p>
-                <input type="number" name="mobile number" className="form-control" placeholder="Mobile Number*"/>
+                <input type="number" name="mobile number" className="form-control" placeholder="Mobile Number*" required/>
                 <p></p>
                 <select className="form-control">
-                  <option>Request for Services?<i class="fa-solid fa-arrow-down"></i></option>
+                  <option>Request for Services?</option>
                   <option>Web/App Development</option>
                   <option>Digital Marketing</option>
                   <option>Cloud Services</option>
@@ -37,7 +41,7 @@ function ContactUs(){
                   <option>others</option>
                 </select>
                 <p></p>
-                <textarea className="form-control" placeholder="Comments">
+                <textarea className="form-control" placeholder="Services Information*" required>
 
                 </textarea>
                 <h6>
