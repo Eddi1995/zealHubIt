@@ -1,4 +1,5 @@
 import Footerstyle from "./Footer.module.css"
+import { Link } from "react-scroll";
 
 
 function Footer(){
@@ -9,8 +10,8 @@ function Footer(){
               <ul>
                 <li><b>ABOUT ZEALHUBIT</b></li>
                 <li><a href="http://localhost:3000/ContactUs">About Us</a></li>
-                <li><a href="#">Career</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><Link activeClass="active" to="Career" spy={true} smooth={true} offset={-80} duration={150} >Career</Link></li>
+                <li><Link activeClass="active" to="ContactUs" spy={true} smooth={true} offset={-70} duration={200}>Contact Us</Link></li>
               </ul>
             </div>
             <div> {/*childtwo  */}
