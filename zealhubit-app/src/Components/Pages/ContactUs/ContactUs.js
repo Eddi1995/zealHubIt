@@ -1,12 +1,46 @@
 
+import { useState } from "react";
 import Contactstyle from "./ContactUs.module.css"
+import axios from "axios"
 
 
 function ContactUs(){
+  let[userdata,setuserdata]= useState({
+    firstname:"",
+    companyemail:"",
+    mobilenumber:"",
+    information:"",
+    services:"",
+  })
 
-  function submitting(){
-   
-  }
+  function changing(e){
+   //  let {name,value} =e.target;
+   let {name,value}=e.target; 
+   setuserdata((prevUserData) => ({...prevUserData,[name]: value}))
+
+}
+
+function submitting(){
+   let {firstname,companyemail,mobilenumber,information,services}= userdata;
+   // console.log(firstname)
+   // console.log(companyemail);
+   // console.log(mobilenumber);
+   // console.log(information);
+   // console.log(services);
+
+
+ let dataToApi=async()=>{
+      await axios.post(``,userdata).then((data)=>JSON.stringify(data)).then((data)=>{console.log(data)}).catch((err)=>{console.log("Error while sending the data")})
+   }
+   dataToApi();
+
+}
+
+
+
+
+
+
 
     return(
         <>
@@ -22,15 +56,15 @@ function ContactUs(){
 
             <div>    {/*child2*/}
            
-               <form onSubmit={submitting()}>
+               <form onSubmit={submitting} method="POST">
                <h3>Lets Get Started</h3>
-                <input  type="text" name="firstname" className="form-control" placeholder="Full Name*" required/>
+                <input type="text" name="firstname" className="form-control" placeholder="Full Name*" required onChange={changing} />
                 <p></p>
-                <input type="email" name="company Email" className="form-control" placeholder=" Email* " required autoComplete="off"/>
+                <input type="email" name="companyemail" className="form-control" placeholder=" Email* " required autoComplete="off" onChange={changing}/>
                 <p></p>
-                <input type="number" name="mobile number" className="form-control" placeholder="Mobile Number*" required/>
+                <input type="number" name="mobilenumber" className="form-control" placeholder="Mobile Number*" required onChange={changing}/>
                 <p></p>
-                <select className="form-control">
+                <select className="form-control" name="services" onChange={changing}>
                   <option>Request for Services?</option>
                   <option>Web/App Development</option>
                   <option>Digital Marketing</option>
@@ -41,7 +75,7 @@ function ContactUs(){
                   <option>others</option>
                 </select>
                 <p></p>
-                <textarea className="form-control" placeholder="Services Information*" required>
+                <textarea className="form-control" name="information" placeholder="Services Information*" required onChange={changing}>
 
                 </textarea>
                 <h6>
@@ -53,7 +87,6 @@ function ContactUs(){
                </form>
             </div>
          </section>
-         
         </>
     )
 }
