@@ -7,7 +7,7 @@ function Header(){
         <>
          <header className={headerstyle.headControl} id="Home"> {/*parent */}
             <div>  {/*child1 */}
-            <h1 class={headerstyle.headerAlign} ><a href="">ZealHubIt</a></h1>
+            <h1 class={headerstyle.headerAlign} ><a href="">ZealHubIt (This is sugan branch)</a></h1>
             </div>
             
 
