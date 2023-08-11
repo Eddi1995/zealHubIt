@@ -10,6 +10,7 @@ function Header(){
             <h1 class={headerstyle.headerAlign} ><a href="">ZealHubIt</a></h1>
             </div>
             
+            
 
             {/* <div> child2  
              <div class="dropdown"> 
