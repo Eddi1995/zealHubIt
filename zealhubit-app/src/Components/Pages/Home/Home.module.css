@@ -26,10 +26,21 @@
    font-size: 59px;
    margin: 25px;
    background: transparent;
+   border: 2px solid green;
+   z-index: 99;
 }
 .mainParent >div:first-child h5{
     font-size: 25px;
     background: transparent;
+ }
+.multiline span{
+   background: transparent;
+   font-size: 56px;
+}
+ main.mainParent .mainParentChild .multilineText {
+   font-size: 56px;
+   background-color: transparent !important;
+   font-weight: 700;
  }
 
  @media only screen and (max-device-width:600px){
@@ -64,6 +75,15 @@
          font-size: 10px;
          background: transparent;
       }
+      .multiline span{
+         background: transparent;
+         font-size: 18px;
+      }
+       main.mainParent .mainParentChild .multilineText {
+         font-size: 18px;
+         background-color: transparent !important;
+         font-weight: 700;
+       }
 
  }
 
@@ -101,6 +121,15 @@
          font-size: 14px;
          background: transparent;
       }
+      .multiline span{
+         background: transparent;
+         font-size: 36px;
+      }
+       main.mainParent .mainParentChild .multilineText {
+         font-size: 36px;
+         background-color: transparent !important;
+         font-weight: 700;
+       }
 
  }
 

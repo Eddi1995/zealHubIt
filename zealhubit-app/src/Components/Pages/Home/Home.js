@@ -10,8 +10,8 @@ function Home(){
    React.useEffect(()=>{
 
     const typed = new Typed(el.current,{
-     strings: ['<i>First sentence</i> .', '<i>second sentence...</i> '],
-     typeSpeed:150,
+     strings: ['"Hello there,sunshine!"', 'Development? Lets Handle This ', 'We_are', 'ZealHubIt Solutions...'],
+     typeSpeed:100,
      loop:true,
      backDelay:50,
      backSpeed:40,
@@ -28,14 +28,11 @@ function Home(){
             <div>      {/* child1 */}
             <img src="./Assetz/mainfour.webp" alt="bannerimage"/>
                 <div class={mainstyle.mainParentChild}>
-                <h2 className="text-warning">Development that easy!
 
-                <span className=" bg-transparent">
-                <span className="text-danger bg-white" ref={el}/>
-                </span>
-                
-                </h2>
-               
+                <div className={`text-warning bg-transparent ${mainstyle.multiline}`}  >
+               <span class={mainstyle.multilineText} ref={el}/>
+                </div>
+                       
                 <h5>Apply disruptive technologies to transform digital business growth with zealhub IT,</h5>
                 <h5>Pitch us your idea and we will bring it to reality</h5>
 
